@@ -66,10 +66,10 @@ var getFormattedPlaceName = function (placeObj) {
   if (childNodes.length == 0) {
     return placeObj.formatted_address;
   }
-  //return firstPart + childNodes
-    //.filter(function (node) { return node.className != 'postal-code'});
-    //.map(function (node) { return node.textContent});
-    //.join(', ')
+  // return firstPart + childNodes
+  //   .filter(function (node) { return node.className != 'postal-code'})
+  //   .map(function (node) { return node.textContent});
+  //   .join(', ')
 };
 
 var getAdjustedMapCenter = function (options) {
